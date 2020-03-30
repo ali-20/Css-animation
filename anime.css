@@ -1,0 +1,26 @@
+img{
+	
+	animation: rotation 1s infinite linear;
+
+
+}
+
+@keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+.block{
+	width: 160px;
+	border: 5px solid;
+	border-radius: 20px;
+	background: rgba(255,192,203,10);
+
+}
+
+
+
